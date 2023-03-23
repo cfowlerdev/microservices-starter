@@ -14,3 +14,7 @@ zuul:
     users:
       path: /users/**
       url: http://localhost:3000/
+    books:
+      path: /books/**
+      url: http://localhost:3001/
+

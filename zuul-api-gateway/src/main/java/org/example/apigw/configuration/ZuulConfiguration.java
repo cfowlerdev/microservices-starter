@@ -1,4 +1,4 @@
-package org.example.apigw;
+package org.example.apigw.configuration;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
