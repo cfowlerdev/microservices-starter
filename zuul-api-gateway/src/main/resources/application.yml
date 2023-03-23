@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+sprint:
+  application:
+    name: api-gateway
+
+eureka:
+  client:
+    register-with-eureka: false
+    
+zuul:
+  routes:
+    users:
+      path: /users/**
+      url: http://localhost:3000/
